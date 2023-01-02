@@ -1,7 +1,7 @@
 /* eslint-disable quotes */
 const addOvertime = (salary, overtimeHourValue) => salary + overtimeHourValue;
 
-const calcSalary = (salary, discounts) => salary - discounts;
+const calcDiscounts = (salary, discounts) => salary - discounts;
 
 const verifyIf = (value) => {
   const assertions = {
@@ -33,7 +33,9 @@ test("sumOvertime", () => {
 
 test("calcDiscount", () => {
   const expected = 2300;
-  const returned = calcSalary(2500, 200);
+  const returned = calcDiscounts(2500, 200);
 
   verifyIf(expected).isExactlyEqualsTo(returned);
 });
+
+export { addOvertime, calcDiscounts as calcSalary };
