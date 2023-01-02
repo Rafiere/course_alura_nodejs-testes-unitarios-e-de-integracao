@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-testes-unitarios-e-de-integracao",
+  "version": "1.0.0",
+  "description": "Os testes unitários são testes curtos e isolados. Normalmente, eles servem para analisar funções ou métodos.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.31.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "jest": "^28.1.0"
+  },
+  "type": "module"
+}
